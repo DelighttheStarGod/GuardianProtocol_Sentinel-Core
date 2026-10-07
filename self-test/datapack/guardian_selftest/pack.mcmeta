@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Guardian Protocol 自验运行目录: one function that runs the mod's in-game self test and then stops the server."
+  }
+}

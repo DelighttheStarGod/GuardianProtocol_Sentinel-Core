@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "guardian_protocol:block/protect_target",
+    "all": "guardian_protocol:block/protect_target"
+  },
+  "elements": [
+    {
+      "from": [1, 1, 1],
+      "to": [15, 15, 15],
+      "faces": {
+        "north": { "texture": "#all", "cullface": "north" },
+        "south": { "texture": "#all", "cullface": "south" },
+        "east":  { "texture": "#all", "cullface": "east" },
+        "west":  { "texture": "#all", "cullface": "west" },
+        "up":    { "texture": "#all", "cullface": "up" },
+        "down":  { "texture": "#all", "cullface": "down" }
+      }
+    }
+  ]
+}

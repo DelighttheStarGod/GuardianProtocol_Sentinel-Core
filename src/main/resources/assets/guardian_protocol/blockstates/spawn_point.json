@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "guardian_protocol:block/spawn_point" }
+  }
+}

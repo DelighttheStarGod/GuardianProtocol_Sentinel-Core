@@ -1,0 +1,17 @@
+{
+  "replaces": "guardian_protocol:medic_wandering",
+  "name": "行医（自验覆盖版）",
+  "block": 0,
+  "attack_interval": 0.5,
+  "stats": {
+    "max_health": 77,
+    "attack_damage": 4,
+    "armor": 6
+  },
+  "targeting": {
+    "priority": "nearest",
+    "count": "single",
+    "attack": true
+  },
+  "vertical": "ranged"
+}

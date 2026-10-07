@@ -1,0 +1,53 @@
+# ---- 构建产物 ----
+build/
+.gradle/
+out/
+bin/
+*.class
+mcmodsrepo/
+
+# ---- IDE ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+*.launch
+
+# ---- ForgeGradle 运行目录与数据生成产物 ----
+run/
+run-data/
+src/generated/
+
+# ---- 无头自验台：datapack/ 是入库真源，其余运行产物都可再生 ----
+self-test/saves/
+self-test/testbed/
+self-test/world/
+self-test/logs/
+self-test/config/
+self-test/crash-reports/
+self-test/mods/
+self-test/eula.txt
+self-test/server.properties
+self-test/banned-ips.json
+self-test/banned-players.json
+self-test/ops.json
+self-test/usercache.json
+self-test/whitelist.json
+self-test/guardianprotocol-selftest.log
+
+# ---- 本地工具链（便携版 JDK / 共享 Gradle 缓存） ----
+gradle-home/
+jdk-17/
+
+# ---- Python 工具产物 ----
+__pycache__/
+*.pyc
+
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini

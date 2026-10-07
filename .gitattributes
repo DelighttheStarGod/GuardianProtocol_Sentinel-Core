@@ -1,0 +1,16 @@
+# 默认按文本处理，仓库内统一 LF
+* text=auto eol=lf
+
+# Windows 批处理必须 CRLF：cmd 对 LF 敏感，尤其中文与括号块
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制文件不做任何行尾转换
+*.jar binary
+*.png binary
+*.zip binary
+*.xlsx binary
+
+# 数据生成产物始终以 LF 写出
+src/generated/**/.cache/cache text eol=lf
+src/generated/**/*.json text eol=lf

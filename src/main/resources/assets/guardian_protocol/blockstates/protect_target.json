@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "taunt_radius=r16":  { "model": "guardian_protocol:block/protect_target" },
+    "taunt_radius=r24":  { "model": "guardian_protocol:block/protect_target" },
+    "taunt_radius=r32":  { "model": "guardian_protocol:block/protect_target" },
+    "taunt_radius=r40":  { "model": "guardian_protocol:block/protect_target" },
+    "taunt_radius=r48":  { "model": "guardian_protocol:block/protect_target" },
+    "taunt_radius=r56":  { "model": "guardian_protocol:block/protect_target" },
+    "taunt_radius=r64":  { "model": "guardian_protocol:block/protect_target" },
+    "taunt_radius=r72":  { "model": "guardian_protocol:block/protect_target" },
+    "taunt_radius=r80":  { "model": "guardian_protocol:block/protect_target" },
+    "taunt_radius=r88":  { "model": "guardian_protocol:block/protect_target" },
+    "taunt_radius=r96":  { "model": "guardian_protocol:block/protect_target" },
+    "taunt_radius=r104": { "model": "guardian_protocol:block/protect_target" },
+    "taunt_radius=r112": { "model": "guardian_protocol:block/protect_target" },
+    "taunt_radius=r120": { "model": "guardian_protocol:block/protect_target" },
+    "taunt_radius=r128": { "model": "guardian_protocol:block/protect_target" },
+    "taunt_radius=r160": { "model": "guardian_protocol:block/protect_target" }
+  }
+}
